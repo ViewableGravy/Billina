@@ -1,2 +1,2 @@
 # Billina
-teaching bill how to be less of a little bitch
+Changed from originally teaching a friend to program to a game of tic tac toe where the AI tries to lose

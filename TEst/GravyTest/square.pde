@@ -1,6 +1,6 @@
 class Tile implements Cloneable {
   int x, y, wid, hei;
-  int shade = 0;
+  int shade = 255;
   public char player = '.';
   Tile(int x, int y, int wid, int hei) {
     this.x = x;
@@ -15,7 +15,7 @@ class Tile implements Cloneable {
   }
 
   void Display() {
-    fill(shade);
+    fill(255);
     rect(x, y, wid, hei);
     stroke(100);
     fill(32);
